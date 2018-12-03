@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">NaiveDialog</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_popup_windows">Simple Popup</string>
+    <string name="popup_windows">Popup Windows</string>
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+    <string name="item5">Item5</string>
 </resources>
