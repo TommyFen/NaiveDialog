@@ -9,4 +9,7 @@
     <string name="item3">Item3</string>
     <string name="item4">Item4</string>
     <string name="item5">Item5</string>
+    <string name="popup_nothing">nothing</string>
+    <string name="str_666">click to toast 666</string>
+    <string name="dialog_content1">这是在 DialogFragment 中通过 \n AlertDialog 填充的 xml 的自定义对话框</string>
 </resources>
