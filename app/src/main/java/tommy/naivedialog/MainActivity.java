@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import tommy.naivedialog.dialog_fragment.AlertDialogFragment;
+import tommy.naivedialog.dialog_fragment.FullSecreenDialogFragment;
 import tommy.naivedialog.dialog_fragment.TabFragmentDialog;
 import tommy.naivedialog.dialog_fragment.XmlDialogFragment;
 import tommy.naivedialog.dialog_fragment.XmlDialogFragment2;
@@ -86,6 +87,7 @@ public class MainActivity extends AppCompatActivity implements PopupFragment.OnF
             case POPUP:
                 Intent intent = new Intent(MainActivity.this, PopActivity.class);
                 startActivity(intent);
+                break;
             case DIALOG_FRAGMENT_1:
                 // alert dialog
                 new AlertDialogFragment().show(getSupportFragmentManager());
@@ -101,6 +103,9 @@ public class MainActivity extends AppCompatActivity implements PopupFragment.OnF
                 break;
             case DIALOG_FRAGMENT_5:
                 new TabFragmentDialog().show(getSupportFragmentManager());
+                break;
+            case DIALOG_FRAGMENT_6:
+                new FullSecreenDialogFragment().show(getSupportFragmentManager());
                 break;
             default:
                 Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show();
