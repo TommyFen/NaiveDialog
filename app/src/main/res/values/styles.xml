@@ -18,4 +18,9 @@
         <item name="android:windowIsFloating">false</item>
     </style>
 
+    <style name="popup_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popup_bottom_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_bottom_exit</item>
+    </style>
+
 </resources>

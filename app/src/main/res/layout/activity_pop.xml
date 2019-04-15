@@ -17,16 +17,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="8dp">
+        android:orientation="horizontal"
+        android:layout_margin="4dp">
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Simple"
-            android:onClick="showSimplePopup"
+            android:text="@string/popup_windows"/>
+
+        <Button
+            android:id="@+id/btn_position1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_popup_windows"
+            android:layout_marginStart="8dp"
             android:textAllCaps="false"/>
 
+        <Button
+            android:id="@+id/btn_position2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_popup_windows2"
+            android:layout_marginStart="8dp"
+            android:textAllCaps="false"/>
 
 
     </LinearLayout>

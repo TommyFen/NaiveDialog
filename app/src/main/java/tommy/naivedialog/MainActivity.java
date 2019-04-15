@@ -2,7 +2,6 @@ package tommy.naivedialog;
 
 import android.content.Intent;
 import android.graphics.Rect;
-import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,11 +18,10 @@ import tommy.naivedialog.dialog_fragment.TabFragmentDialog;
 import tommy.naivedialog.dialog_fragment.XmlDialogFragment;
 import tommy.naivedialog.dialog_fragment.XmlDialogFragment2;
 import tommy.naivedialog.dialog_fragment.XmlDialogFragment3;
-import tommy.naivedialog.popup.PopupFragment;
 
 import static tommy.naivedialog.Type.POPUP;
 
-public class MainActivity extends AppCompatActivity implements PopupFragment.OnFragmentInteractionListener, DialogTypeAdapter.OnItemClickListener {
+public class MainActivity extends AppCompatActivity implements DialogTypeAdapter.OnItemClickListener {
 
     private RecyclerView rvDialogType;
     private List<DialogType> mTypes;
@@ -75,11 +73,6 @@ public class MainActivity extends AppCompatActivity implements PopupFragment.OnF
 
     }
 
-
-
-    @Override
-    public void onFragmentInteraction(Uri uri) {
-    }
 
     @Override
     public void onItemClick(Type type) {
